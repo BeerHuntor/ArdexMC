@@ -1,0 +1,18 @@
+name: ArdexMC
+version: ${project.version}
+main: me.beerhuntor.ardexmc.ArdexMC
+api-version: 1.13
+authors: [BeerHuntor, 24dk]
+description: Official plugin for the Ardex MC Server
+commands:
+  setlore:
+    usage: /setlore
+    aliases: sl
+    description: Set's the lore of the current held item in main hand.
+  setname:
+    usage: /setname
+    aliases: sn
+    description: Set's the name of the current held item in main hand.
+  ranks:
+    usage: /ranks
+    description: Opens the inventory menu to buy ranks.
